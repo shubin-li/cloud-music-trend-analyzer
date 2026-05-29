@@ -1,6 +1,6 @@
 # Cloud-Based Analysis of Music Aesthetic Trends
 
-**CSC1142 Cloud Technologies | MSc in Computing (Data Analytics) | Dublin City University**
+**CSC1142 Cloud Technologies | MSc in Computing (Data Analytics) | Autumn 2025 | Dublin City University**
 
 An end-to-end data engineering and analytics pipeline built with Apache Spark / PySpark on Google Colab, investigating the divergence between critical acclaim (Grammy Awards) and commercial popularity (Spotify streaming data) in the music industry from 2000 to 2023.
 
