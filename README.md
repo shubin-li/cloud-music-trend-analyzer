@@ -102,6 +102,23 @@ Grammy group (~5 winners/year) vs Spotify popular (100/year) vs general (thousan
    - Set up Spark environment (Java + PySpark)
    - Execute ETL pipeline producing Parquet outputs
    - Generate interactive visualizations
+  
+## My Contributions
+
+This was a 2-person project. I was responsible for technical implementation:
+
+- **ETL Pipeline:** Full PySpark environment setup, CSV parsing with custom 
+  quote/escape/multiLine options for messy track names, regex-based artist & 
+  track normalisation, and cross-dataset entity resolution (automated join + 
+  manual index mapping for 41 of 54 unmatched Grammy records)
+- **Cohort Construction:** Spark window functions and filtering logic to build 
+  three analytical groups — Grammy winners, top-100 popular per year, and 
+  general population baseline
+- **Data Engineering:** Parquet output pipeline for schema-preserving columnar 
+  storage, ensuring reproducibility across sessions
+- **Interactive Visualisation:** All EDA plots including dual-axis time-series 
+  with Mean/Median toggle (ipywidgets), genre distribution stacked bar charts, 
+  and audio feature comparison across cohorts
 
 ## Key Findings
 
